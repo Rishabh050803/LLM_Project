@@ -1,0 +1,10 @@
+{"id":"cgpa_conversion","question":"What formula is used to convert CGPA into percentage marks?","answerable":true,"expected_source_terms":["formula_for_cgpa","UGCoursesStudy"]}
+{"id":"phd_gate","question":"Is a GATE score mandatory for PhD admission with institute assistantship?","answerable":true,"expected_source_terms":["1002"]}
+{"id":"internship_rules","question":"What approval is required before a student can start an industrial internship?","answerable":true,"expected_source_terms":["InternshipGuidelinesUGPG"]}
+{"id":"academic_integrity","question":"What similarity index is allowed under the academic integrity guidelines?","answerable":true,"expected_source_terms":["Guidelines_AcademicIntegrity"]}
+{"id":"fee_refund","question":"When is only the tuition fee refunded during semester withdrawal?","answerable":true,"expected_source_terms":["UGCoursesStudy"]}
+{"id":"registration","question":"How must students register for courses each semester?","answerable":true,"expected_source_terms":["UGCoursesStudy"]}
+{"id":"mpdd_cgpa","question":"What minimum CGPA is required for PhD candidacy in the MPDD programme?","answerable":true,"expected_source_terms":["3024_DualDegree"]}
+{"id":"hostel_menu","question":"What is the hostel mess menu for students?","answerable":false,"expected_source_terms":[]}
+{"id":"library_hours","question":"What are the institute library opening hours?","answerable":false,"expected_source_terms":[]}
+{"id":"sports_facilities","question":"Which sports facilities are available on campus?","answerable":false,"expected_source_terms":[]}

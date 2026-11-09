@@ -1,0 +1,498 @@
+{
+  "dataset": "data/evaluation/baseline_queries.jsonl",
+  "cases": 10,
+  "top_k": 3,
+  "retrieval_recall_at_k": 1.0,
+  "citation_format_valid_rate": 1.0,
+  "abstention_accuracy": 1.0,
+  "mean_latency_ms": 2256.7,
+  "answerable_cases": 7,
+  "unanswerable_cases": 3,
+  "results": [
+    {
+      "id": "cgpa_conversion",
+      "question": "What formula is used to convert CGPA into percentage marks?",
+      "answerable": true,
+      "expected_source_terms": [
+        "formula_for_cgpa",
+        "UGCoursesStudy"
+      ],
+      "answer": "The formula used to convert CGPA into percentage marks at the Malaviya National Institute of Technology Jaipur is:\n\n**Percentage Marks = CGPA x 10**\n\nThis formula was adopted by the Senate during its 34th meeting held on February 10, 2016, superseding a previous order regarding CGPA conversion [1].",
+      "sources": [
+        {
+          "chunk_id": "b19220f15f9abc038f985322d15a61a00ce5aa48e883eb6c38817c03a236f74e",
+          "text": "MAI,AVIYA NATIONAL INSTITI]'I'E OF TECHNOLOGY JAIPUR ACADEMIC SECTION F. No. F.4 (P) 34 Senate/MNIT/Aca dt2Tj6l6q\"o Dated: February 29, 2016 \\.\\hfttu . OF'}-ICE ORDER As oer decision taken by Senate in its 34tt'meeting helcl on lotl'February 2016 vide Item No' 34-'5'2' Malaviya National Institute of Technology JaipLrr adopted following formula fbr notional conversion of cGpA into percentage marks in place of existing formula: 'I'his is in supersession of Order No. % Marks - CGPA x l0 F.4 (P) 9/Acdm/MNIT t2ot 4t t 4. Copy to: I. Ali Head of thc Departments. 2. PS to Director. 3. PA to Registrar. 4. Cuard F'ile. Assistant Registrar (Academic)",
+          "score": 0.581406,
+          "filename": "formula_for_cgpa_57a469ce4d7d.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/Office_Order/formula_for_cgpa.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Senate Order for GPA to Percentage Conversion",
+          "category": "academic_regulations"
+        },
+        {
+          "chunk_id": "acff464f0293cd201350ef1d655424eeb445934cf1711fb9cdb02ca7ca05d485",
+          "text": "8 There are nine letter grades: AA, AB, BB, BC, CC, CD, DD ,FA and FP that have grade points with values distributed on a 10-point scale. The letter grades and the corresponding grade points on the 10-point scale are as given in table above. 9.2 Statistical Method for the Award of Grades The statistical method shall invariably be used if there are more than 30 registered students in the course. The statistical method may be used with marginal adjustment for natural cut off. The mean and standard d eviation (σ) of marks obtained by all the students in a course shall be calculated. The se values shall be used for awarding grades to the students as per table given below. Lower Range of Marks Grade Awarded, if marks falls in range Upper Range of Marks ≥Mean + 1.5 σ AA Mean + 1.0σ ≤ AB < Mean + 1.5 σ Mean + 0.5 σ ≤ BB < Mean + 1.0σ Mean ≤ BC < Mean + 0.5 σ Mean – 0.5 σ ≤ CC < Mean Mean – 1.0 σ ≤ CD < Mean – 0.5 σ Mean – 1.5 σ ≤ DD < Mean – 1.0 σ FP < Mean – 1.5 σ 9.3 Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA) The letter g rades awarded to a student in all the courses (except audit cou rses) shall be converted into semester and cumulative performance index called the Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA). The SGPA is an indicator of t he overall academic performance of a student in all the courses that he/she has registered during a given semester. In the above computation, courses with S,X and letter grades (GNI) are ignored. Similarly, the CGPA indicates the overall academic performance of a student in",
+          "score": 0.568618,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 11,
+          "page_end": 11,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "53e503c72e7fbe57b9bcd812055c880d76c75bd880f04af6a7dd53e774771673",
+          "text": "a student in all the courses that he/she has registered during a given semester. In the above computation, courses with S,X and letter grades (GNI) are ignored. Similarly, the CGPA indicates the overall academic performance of a student in all the courses registered and successfully earned credits up to and including the latest completed semester. It is computed in the same manner as the SGPA, considering all the courses.",
+          "score": 0.513883,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 11,
+          "page_end": 11,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        }
+      ],
+      "latency_ms": 2515.1,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "phd_gate",
+      "question": "Is a GATE score mandatory for PhD admission with institute assistantship?",
+      "answerable": true,
+      "expected_source_terms": [
+        "1002"
+      ],
+      "answer": "Yes, a GATE score is mandatory for PhD admission with institute assistantship in Engineering and Sciences at the Mala Viya National Institute of Technology Jaipur. According to the official order, the GATE score must have been obtained within the last three years, or the candidate must have completed their Master's degree with a valid GATE score [1].",
+      "sources": [
+        {
+          "chunk_id": "2851c26076cbb5cf45e9f558f53febb639e31e7d41c042468a80d919039c6929",
+          "text": "MALA VIYA NATIONAL INSTITUTE OF TECHNOLOGY JAIPUR OFFICE OF THE DEAN, ACADEMIC F. No. F4/S-V-1/20-21-Acad (43-Senate)1 t002.... Dated.Z'{January, 2022 OFFICE ORDER Sub: GATE score mandatory for admission to Ph.D. program with scholarship support. The Senate in its 43rd meeting held on 14thDecember 2021 under Item No. 43-3.4 decided the following criteria for admission to Ph.D. program with scholarship support. i. GATE score will be mandatory for admission to Ph.D. program (with Institute Assistantship) in Engineering and Sciences. The GATE score should have been acquired either within past three years or the candidate should have completed respective Master's degree with a valid GATE score. ii. For admission to Ph.D. program with Institute Assistantship in the Departments of Management Studies and Humanities & Social Sciences, UGC NET shall be mandatory. ~~~ \\ ~ REGISTRAR Copy to: 1. Dean, Academic. 2. All Head of the Departments. 3. PS to Director. 4. PA to Registrar. 5. Webmaster to upload on Institute website. 6. Guard File. Assistant Registrar (Academic)",
+          "score": 0.698416,
+          "filename": "1002_abd930d6ca33.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2022/01/1002.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Office Order on GATE Score Mandatory for Ph.D. Admission with Scholarship",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "820f64a5d11ae06939ea285889434005a003ac039835bdb0f98894b9153a06cf",
+          "text": "c) d) a) The willing candidate must apply to the institute for the MPDD program through regular PhD admission process every semester. Admission is not a right, but is subject to successful interview and availability of funded scholarship positions (from institute fellowshipAJGC/CSIR, etc.) b) A separate category of PhD admissions may be approved by the Senate. A separate category of PhD admissions must be created in institute ERP. The candidate must appear for a personal interview in front of the Departmental Selection Committee (DSC), during the routine PhD admissions. No written test would be conducted for the candidates appearing for this program. The number of candidates admitted through MPDD program will be counted towards overall PhD scholars (slots) a faculty can supervise and overall seats available for scholarship. Program Duration: The total duration of the proposed MPDD program will be minimum 4 (1+3) and maximum of 7 (2+5) years from the date of MTech/MPlan admission at the institute. Program Assistantship: The candidate becomes eligible for scholarship for regular PhD scholars. However, for the scholars admitted through MPDD program, MTech/l\\zlPlan Assistantship would continue till the successful clearing of their Comprehensive Exam. Once the candidate successfully clears the Comprehensive Exam, the difference of eligible assistantship amount since admission to MPDD program (3'd I 4h semester onwards) till the date of the Comprehensive Exam will be credited to the candidate in equal instalments. After that normal PhD Assistantship will be continued. The",
+          "score": 0.48435,
+          "filename": "3024_DualDegree_65b7a6680b83.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2023/09/3024_DualDegree.pdf",
+          "page_start": 3,
+          "page_end": 3,
+          "title": "Office Order for M.Tech./M.Plan. + Ph.D. Dual Degree (MPDD) Program",
+          "category": "academic_programs"
+        },
+        {
+          "chunk_id": "1b718216f7e6f79e3cad10ccb7389e5a9ab0d44484ea509b9b8e680b752663c6",
+          "text": "MALA VIYA NATIONAL INSTITUTE OF TECHNOLOGY JAIPUR OFFICE OF THE DEAN, ACADEMIC F. No. F4/S-V-1I20-21-Acad (43-Senate)/ '005 Dated.j qJanuary, 2022 OFFICE ORDER Sub: Waiving off the written test for entrance in Ph.D. programmes of the institute for those who have cleared the UGC NET/CSIRIDST Inspire (with scholarship) or any other national examination offering scholarship. The Senate in its 43rd meeting held on 14thDecember 2021 under Item No. 43-5.1, In order to encourage the students who have cleared the National Level Examination (with scholarship) and can sustain their \"Ph.D. from external scholarship/assistantship, the Senate decided to waive off the requirement of written test for admission in Ph.D. programme for the candidates who have cleared the UGC NET/CSIRIDST Inspire (with scholarship) or any other national examination offering scholarship. However, such candidates will be required to appear for the interview and if selected, they may be offered the Ph.D. programme at MNIT Jaipur. The Senate also clarified that no Institute assistantship will be given to such students from the Institute funds. This waiver will be applicable for the candidates to be admitted in Ph.D. programme from Even Semester 2021-22 and onwards. REGISTRAR Copy to: 1. Dean, Academic. 2. All Head of the Departments. 3. PS to Director. 4. PA to Registrar. 5. Dealing Assistant (Ph.D.). 6. Webmaster to upload on Institute website. 7. Guard File. Assistant Registrar (Academic)",
+          "score": 0.472125,
+          "filename": "1005_4344642e34f4.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2022/01/1005.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Office Order on Waiving Written Test for Ph.D. Admission",
+          "category": "academic_regulations"
+        }
+      ],
+      "latency_ms": 2244.8,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "internship_rules",
+      "question": "What approval is required before a student can start an industrial internship?",
+      "answerable": true,
+      "expected_source_terms": [
+        "InternshipGuidelinesUGPG"
+      ],
+      "answer": "Before a student can start an industrial internship, they must obtain approval from the Academic Section. This involves submitting an application in the prescribed format (Annexure-A) to the Dean of Academics, along with endorsements from their Supervisor and the Department Postgraduate Undergraduate Committee (DPGC/DUGC). Additionally, students need to obtain an Office Order from the Academic Section after their application is approved [1][2].",
+      "sources": [
+        {
+          "chunk_id": "bb858d411908adaab66e6a59b6490538dcea8653f8a89908d4aef82e06ff68a6",
+          "text": "ANNEXURE-A Format for application To, The Dean Academics, M IT Jaipur I ....... ..................................... Son / Daughter of . bearing Institute ID No want to join the Industrial Training / Internship for a period of one / two semester(s) starting from (date) to (date) at ................................................................................. (Name and address of Internsh= -....../ Host Organization). 1. I have fully read and understood the rules and regulations laid by the Institute and Host Organization and undertake to abide by them. 2. I have enclosed a copy of the offer letter from the Host Organization 3. I will proceed for an internship only after obtaining the Offiee Order from the Academie Section. Kindly permit me to join the Internship as mentioned above. (Student Signature) Supervisor / Programme Advisor Convener DPGC / DUGC",
+          "score": 0.57146,
+          "filename": "InternshipGuidelinesUGPG_2c325d035ed5.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/InternshipGuidelinesUGPG.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "title": "Internship Guidelines for UG and PG Students",
+          "category": "academic_policies"
+        },
+        {
+          "chunk_id": "d70fd16352301a1e7f2a19c7669a3329dd285bb0316f03ce68b8702fb4144db5",
+          "text": "c. Submit a progress report to DPGC every two months of his / her dissertation work forwarded by the Industry mentor and MNIT Supervisor. d. The students will be expected to attend the evaluation of the required credits either offline / online, depending on the nature of work, as decided by DPGC. Students will produce a certificate of successfully completing the Industrial training / Intemship with clearly mentioning the work assigned to them. Students who are not able to produce the certi ficate of completion and / or do not complete dissertation work satisfactorily as adjudicated by Institute Supervisor / DPGC must register for V Semester and complete the dissertation. The maximum time to complete their dissertation work will be one year (registering in their V and VI Semester). In addition to above, it was also clarified that the opportunity to avail the institute placements shall be available to the students irrespective of whether they are on Internship or not and in no circumstance the student shall be denied for the institute placement on ground that they were/are on intemship. Procedure for PG/UG internship application -- 1. PG Students must seek the consent of their Dissertation Supervisor and must appear in the intemship interview only after due approval. Similarly, UG students will seek the consent of the DUGe. 2. After being selected for Internship, students must apply to the Dean (Academic) duly recommended by the Supervisor and Department PG/UG Committee. Students will submit the application in the prescribed format (Annexure-A) supported by the industry",
+          "score": 0.562455,
+          "filename": "InternshipGuidelinesUGPG_2c325d035ed5.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/InternshipGuidelinesUGPG.pdf",
+          "page_start": 3,
+          "page_end": 3,
+          "title": "Internship Guidelines for UG and PG Students",
+          "category": "academic_policies"
+        },
+        {
+          "chunk_id": "fc5ac1bda8e95f085ea9e0381afe434bdaa035339510fb8635f6d5be53cf2db7",
+          "text": "MALAVIYA NATIONAL INSTITUTE OF TECHNOLOGY JAIPUR ACADEMIC SECTION F. No. F4/S-V-1I20-21-Acad-Typ (41-Senate)l S' 2- Dated2~August, 2021 OFFICE ORDER Sub: Internship Guidelines for UG and PG students. In accordance with the approval granted by the Senate in its 41st meeting held on is\"March 2021 under Item No. 41-3.1. The guidelines for industrial internships of UG and PG students are as under: Internship guidelines for UG students The New Education Policy strongly recommends that practical exposure, vocational trammg, internships be integral part of the curriculum. This would produce graduates who have hands on working and problem-solving experience. This will help in their seamless transition from the Institute to the Industry. The employability of the students who undergo internship in reputed companies will be high as Industry would get work force in line with their requirements. In order to encourage Industry Institute interaction and to impart practical exposure to the students the committee strongly recommends Industrial internships to the students for a period of six months to a maximum of one year. DUGC of the department shall recommend all the cases of industrial internships and ensure that the following norms are observed. 1. Internship in VII Semester only (can also be in continuation of summer internship for 2 months after VI Semester) a. Completion of all courses up to VI Semester without any backlogs b. Course waiver of 16 credits in lieu of internship. 2. Internship in VITISemester only: a.' Completion of all courses up to VII Semester without any backlogs",
+          "score": 0.561829,
+          "filename": "InternshipGuidelinesUGPG_2c325d035ed5.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/InternshipGuidelinesUGPG.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Internship Guidelines for UG and PG Students",
+          "category": "academic_policies"
+        }
+      ],
+      "latency_ms": 2218.7,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "academic_integrity",
+      "question": "What similarity index is allowed under the academic integrity guidelines?",
+      "answerable": true,
+      "expected_source_terms": [
+        "Guidelines_AcademicIntegrity"
+      ],
+      "answer": "Under the academic integrity guidelines, a maximum similarity index of 15% is allowed for project reports, dissertations, and thesis submissions. An exception permits a maximum of 20% similarity if the similarity index from each individual source is less than 1% [1].",
+      "sources": [
+        {
+          "chunk_id": "f86ce86b1f8581c7b318ac872ff019002e76562cf0bdde4d447451ad0769a29f",
+          "text": "MALAVIYA NATIONAL INSTITUTE OF TECHNOLOGY JAIPUR OFFICE OF THE DEAN, ACADEMIC F. No. F4/S-V-1I20-21-Acad (42-Senate)/ JJ~~ Dated: J:1November, 2021 OFFICE ORDER Sub: Guidelines for maintaining Academic Integrity. In accordance with the approval granted by the Senate in its 42nd meeting held on 9th September 2021 under Item No. 42-3.2, the guidelines for maintaining academic integrity are as under: 1. Self-similarity for plagiarism check for Project /Dissertation/Thesis reports submitted respectively by UG/PG/Ph.D. students shall be as per the following: a. \"Maximum 8 word count\" and b. Excluding self citations 2. Maximum 15% similarity index is allowed for the project reports/dissertation/thesis. However, a maximum of 20% similarity index is allowed only if similarity index from each individual source remains less than 1%. \\-vv-~ REGISTRAR Copy to: 1. 2. 3. 4. 5. 6. 7. Dean, Academic. All Heads of the Departments. All Conveners DPGC, DUGC. PS to Director. PA to Registrar. Webmaster for upload on Institute website. Guard File. '- /lul;: s/!t!JA, Deputy Registrar (Academic)",
+          "score": 0.646539,
+          "filename": "Guidelines_AcademicIntegrity_6caaa49ecb44.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/Guidelines_AcademicIntegrity.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Guidelines for maintaining Academic Integrity",
+          "category": "academic_policies"
+        },
+        {
+          "chunk_id": "32cea9c643e2775e8cd00781c4ddb05ad0a01e7d8659c136ba3410b550afa84b",
+          "text": "14 13.2.1 Unfair Means No candidate shall use unfair means or indulge in disorderly conduct at or in connection with examinations.If a student is detected using unfair means,the Course Coordinator/ Instructor of a course shall bring the matter to the notice of the Dean , Academics along with supporting evidenceto debar the student from the examination in which he/she is found guilty . All such cases shall be looked into by a standing Committee (Unfair Means Committee). Here “candidate” means an examinee taking an examination and “examination” means any examination, Mid-Term, End-Term, quizzes, practical exam, which are considered as part of assessment/evaluation by the instructor while awarding grades in a subject. Unfair Means shall include the following: 1. During examination time having in possession or access to: a. Any paper, book, note book or any other unauthorised material which has relevance to the syllabus of the examination paper concerned. b. Mobile phones or any electronic gadget other than calculator, even in switch off mode, which can potentially be used for communication or copying. c. Anything written on any other instrument or any kind of furniture or any other substance which may have relevance to the syllabus of the examination paper concerned. d. Anything written or signs made on the body of the candidate or his/her clothes/garments, handkerchief, etc., which may have relevance to the syllabus of the examination paper concerned. e. Anything written on the question paper which may have relevance to the syllabus of the examination paper concerned. 2.",
+          "score": 0.389354,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 17,
+          "page_end": 17,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "acff464f0293cd201350ef1d655424eeb445934cf1711fb9cdb02ca7ca05d485",
+          "text": "8 There are nine letter grades: AA, AB, BB, BC, CC, CD, DD ,FA and FP that have grade points with values distributed on a 10-point scale. The letter grades and the corresponding grade points on the 10-point scale are as given in table above. 9.2 Statistical Method for the Award of Grades The statistical method shall invariably be used if there are more than 30 registered students in the course. The statistical method may be used with marginal adjustment for natural cut off. The mean and standard d eviation (σ) of marks obtained by all the students in a course shall be calculated. The se values shall be used for awarding grades to the students as per table given below. Lower Range of Marks Grade Awarded, if marks falls in range Upper Range of Marks ≥Mean + 1.5 σ AA Mean + 1.0σ ≤ AB < Mean + 1.5 σ Mean + 0.5 σ ≤ BB < Mean + 1.0σ Mean ≤ BC < Mean + 0.5 σ Mean – 0.5 σ ≤ CC < Mean Mean – 1.0 σ ≤ CD < Mean – 0.5 σ Mean – 1.5 σ ≤ DD < Mean – 1.0 σ FP < Mean – 1.5 σ 9.3 Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA) The letter g rades awarded to a student in all the courses (except audit cou rses) shall be converted into semester and cumulative performance index called the Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA). The SGPA is an indicator of t he overall academic performance of a student in all the courses that he/she has registered during a given semester. In the above computation, courses with S,X and letter grades (GNI) are ignored. Similarly, the CGPA indicates the overall academic performance of a student in",
+          "score": 0.379179,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 11,
+          "page_end": 11,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        }
+      ],
+      "latency_ms": 2112.8,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "fee_refund",
+      "question": "When is only the tuition fee refunded during semester withdrawal?",
+      "answerable": true,
+      "expected_source_terms": [
+        "UGCoursesStudy"
+      ],
+      "answer": "The tuition fee is refunded during semester withdrawal in the following circumstances:\n\n1. A student has paid the semester fee but has not registered in the enrolled program and applies for semester withdrawal.\n2. A student has paid the semester fee and registered in the enrolled program and applies for semester withdrawal on medical grounds prior to the start of the mid-term exam.\n\nIn both cases, only the tuition fee will be refunded. If the withdrawal occurs after the start of the mid-term exam (for medical reasons) or for reasons other than medical, no fees will be refunded [1].",
+      "sources": [
+        {
+          "chunk_id": "a280703ec85714873fc73a3637e91ced0893036a486eb22bd981b69143baf79d",
+          "text": "4 Students shall be entitled for refund of C aution Money only if they leave th e program after the date ofregistration.No fee shall be refunded in case a student is rusticated/suspended for a semester or his/her semester exams are cancelled on account of unfair means. 5.1.1 REFUND OF FEES IN CASE OF SEMESTER WITHDRAWAL Fee refund policy of the students who are permitted Semester Withdrawal on Medical or any other ground is as follows: S.No. Category Refundable amount 1. The student has paid the semester fee but has not registered in the enrolled programme and applies forSemester Withdrawal. Only the Tuition Fee shall be refunded. 2. The s tudent has paid the semester fee and registered in the enrolled programme and applies for Semester Withdrawal on Medic al grounds prior to start of the Mid-Term Exam. Only the Tuition Fee shall be refunded. 3. The s tudent has paid the semester fee and registered in the enrolled programme and applies for the Semester Withdrawal on Medical grounds after the start of Mid-Term Exam. Fee shall not be refunded. 4. The s tudent has paid the semester fee and registered in enrolled programme and applies for Semester Withdrawal on other than Medical grounds. Fee shall not be refunded. 5.1.2 REFUND OF FEES IN CASE OF NEW ENTRANTS S.No. Category Amount of fee to be refunded 1. In case a student registers in the allotted programme and withdraws on or before the last date specified for registration. His/her seat is included for admission in subsequent rounds by CSAB Entire fee after deduction of Rs.1000/- as processing charge to be refunded 2. In",
+          "score": 0.693772,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 7,
+          "page_end": 7,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "d78cf0d06f015621bb939e3f61a01adfda92ebc7676b34941c7538177d2799dd",
+          "text": "5 5.1.3 REFUND OF FEES IN CASE OF EXISTING STUDENTS WHO CHOOSE TO WITHDRAW FROM THE INSTITUTE S.No. Category Amount of fee to be refunded 1 The student has neither paid the fee nor registered in the enrolled program and withdraws. Caution money to be returned on submission of the ‘No Dues’ 2 The student has paid the fee but not registered in the enrolled programme and withdraws Caution money and Semester Fee paid by the student to be refunded on the submission of the ‘No Dues’ 3 The student withdraws after paying the fee and registration in the enrolled program. Only Caution money to be refunded on the submission of the ‘No Dues’. However, Semester fee paid shall be forfeited. 4 In case a student not permitted to continue further due to non fulfilment of CGPA requirement/any other reason, has paid fees. Caution money & Semester Fee paid to be refunded on submission of the No Dues 6. REGISTRATION 6.1 Registration Procedure All students are required to register in person for each S emester for the courses to be pursued by them, as per the programme, on the dates specified in the Academic Calendar. The sole responsibility for registration rests with the student concerned. A student is required to register, in person, for each semester. The student is also required to register for the courses that he/she intends to pursue in that semester. 6.2 Late Registration If, for any compelling reason like illness, a student is unable to register within the notified date(s) of registration, he /she will be allowed to register till the last date of registration specified in the A cademic",
+          "score": 0.609382,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 8,
+          "page_end": 8,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "2a41bff1a870dc04f809ac1775746faf9a42b59992a3e604678ba7f37d55b527",
+          "text": ".2 Late Registration If, for any compelling reason like illness, a student is unable to register within the notified date(s) of registration, he /she will be allowed to register till the last date of registration specified in the A cademic Calendar (which is about one week from the last date of notified period of registration) by depositing a late fee as decided by the Senate from time to time. In no case, the student will be permitted to register after the last date of registration. If a student does not register in a semester, he/she will be required to take semester withdrawal and permitted to register in the subsequent semester only on payment of the penalty of Rs. 10,000/ - + Institute Fee (excluding Tuition Fee) of the gap semester(s) for which the student has not registered for, in addition to the Institute Fee (as applicable) for the semester in which he/she is being registered.",
+          "score": 0.550303,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 8,
+          "page_end": 8,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        }
+      ],
+      "latency_ms": 2625.3,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "registration",
+      "question": "How must students register for courses each semester?",
+      "answerable": true,
+      "expected_source_terms": [
+        "UGCoursesStudy"
+      ],
+      "answer": "Students must register in person for each semester for the courses they intend to pursue, as specified in the Academic Calendar. The responsibility for registration lies with the student, and they must register during the notified registration period. If a student is unable to register on time due to compelling reasons like illness, they can do so until the last specified registration date by paying a late fee. No registrations are allowed after the last registration date under any circumstances [1][2].",
+      "sources": [
+        {
+          "chunk_id": "2a41bff1a870dc04f809ac1775746faf9a42b59992a3e604678ba7f37d55b527",
+          "text": ".2 Late Registration If, for any compelling reason like illness, a student is unable to register within the notified date(s) of registration, he /she will be allowed to register till the last date of registration specified in the A cademic Calendar (which is about one week from the last date of notified period of registration) by depositing a late fee as decided by the Senate from time to time. In no case, the student will be permitted to register after the last date of registration. If a student does not register in a semester, he/she will be required to take semester withdrawal and permitted to register in the subsequent semester only on payment of the penalty of Rs. 10,000/ - + Institute Fee (excluding Tuition Fee) of the gap semester(s) for which the student has not registered for, in addition to the Institute Fee (as applicable) for the semester in which he/she is being registered.",
+          "score": 0.548816,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 8,
+          "page_end": 8,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "d78cf0d06f015621bb939e3f61a01adfda92ebc7676b34941c7538177d2799dd",
+          "text": "5 5.1.3 REFUND OF FEES IN CASE OF EXISTING STUDENTS WHO CHOOSE TO WITHDRAW FROM THE INSTITUTE S.No. Category Amount of fee to be refunded 1 The student has neither paid the fee nor registered in the enrolled program and withdraws. Caution money to be returned on submission of the ‘No Dues’ 2 The student has paid the fee but not registered in the enrolled programme and withdraws Caution money and Semester Fee paid by the student to be refunded on the submission of the ‘No Dues’ 3 The student withdraws after paying the fee and registration in the enrolled program. Only Caution money to be refunded on the submission of the ‘No Dues’. However, Semester fee paid shall be forfeited. 4 In case a student not permitted to continue further due to non fulfilment of CGPA requirement/any other reason, has paid fees. Caution money & Semester Fee paid to be refunded on submission of the No Dues 6. REGISTRATION 6.1 Registration Procedure All students are required to register in person for each S emester for the courses to be pursued by them, as per the programme, on the dates specified in the Academic Calendar. The sole responsibility for registration rests with the student concerned. A student is required to register, in person, for each semester. The student is also required to register for the courses that he/she intends to pursue in that semester. 6.2 Late Registration If, for any compelling reason like illness, a student is unable to register within the notified date(s) of registration, he /she will be allowed to register till the last date of registration specified in the A cademic",
+          "score": 0.527519,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 8,
+          "page_end": 8,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "464ac6030c7ed513b03770d056b5767d9873e7ef0b2ee66f7198a39c83961e9e",
+          "text": "11 ii. A semester, when a student has been granted semester withdrawal or granted semester leave, will not be considered as a registered semester. iii. The semester when a student is suspended from the Institute on disciplinary grounds will not be counted towards the number of registered semesters. iv. A semester in which a student is allowed by the Institute to undergo semester -long internship will be counted as a registered semester. (b) The minimum and the maximum permissible number of registered semesters for completing all degree requirements are defined in table below Academic programme Minimum number of registered semesters Maximum number of registered semesters B.Tech. 8 14 B.Arch. 10 16 The maximum duration for a student for complying with the d egree requirement is EIGHT years (NINE years for B.Arch.) from the date of first registration for his/herFirst Semester. 11.3 Academic Requirement Minimum requirements for continuation of registration, termination/year-back, probation and warning A student is expected to earn a minimum number of credits, as specified in table below, at the end of the First Year in order to continue registration. If a student does not meet this criterion, his/her performance is classified as “Academically Deficient”, and he/she may opt to start the programme afresh in the First Year and put on the Year-Back, or else his/her registration will be terminated. The option of ‘Year Back’ is available only once in the First Year. Check Point Earned Credits (including earned in Supplementary Examination) Decision Remark At the end of First Year",
+          "score": 0.496163,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 14,
+          "page_end": 14,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        }
+      ],
+      "latency_ms": 3326.2,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "mpdd_cgpa",
+      "question": "What minimum CGPA is required for PhD candidacy in the MPDD programme?",
+      "answerable": true,
+      "expected_source_terms": [
+        "3024_DualDegree"
+      ],
+      "answer": "The minimum CGPA required for PhD candidacy in the MPDD programme is 7.5 and above, based on the courses registered after admission to the MPDD program [2].",
+      "sources": [
+        {
+          "chunk_id": "820f64a5d11ae06939ea285889434005a003ac039835bdb0f98894b9153a06cf",
+          "text": "c) d) a) The willing candidate must apply to the institute for the MPDD program through regular PhD admission process every semester. Admission is not a right, but is subject to successful interview and availability of funded scholarship positions (from institute fellowshipAJGC/CSIR, etc.) b) A separate category of PhD admissions may be approved by the Senate. A separate category of PhD admissions must be created in institute ERP. The candidate must appear for a personal interview in front of the Departmental Selection Committee (DSC), during the routine PhD admissions. No written test would be conducted for the candidates appearing for this program. The number of candidates admitted through MPDD program will be counted towards overall PhD scholars (slots) a faculty can supervise and overall seats available for scholarship. Program Duration: The total duration of the proposed MPDD program will be minimum 4 (1+3) and maximum of 7 (2+5) years from the date of MTech/MPlan admission at the institute. Program Assistantship: The candidate becomes eligible for scholarship for regular PhD scholars. However, for the scholars admitted through MPDD program, MTech/l\\zlPlan Assistantship would continue till the successful clearing of their Comprehensive Exam. Once the candidate successfully clears the Comprehensive Exam, the difference of eligible assistantship amount since admission to MPDD program (3'd I 4h semester onwards) till the date of the Comprehensive Exam will be credited to the candidate in equal instalments. After that normal PhD Assistantship will be continued. The",
+          "score": 0.613834,
+          "filename": "3024_DualDegree_65b7a6680b83.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2023/09/3024_DualDegree.pdf",
+          "page_start": 3,
+          "page_end": 3,
+          "title": "Office Order for M.Tech./M.Plan. + Ph.D. Dual Degree (MPDD) Program",
+          "category": "academic_programs"
+        },
+        {
+          "chunk_id": "ff608353862265e44fdc12379bb8fc6878817df18ed657af913f6dcf69e98507",
+          "text": "ny backlog in any of the registered courses for MTech/MPlan. b) They can convert themselves to the MTech/MPlan + Ph.D. Dual Degree (MPDD) Programme of the concerned academic unit where they have registered for MTech program. c) The student will be given an option to register for MPDD program any time after the declaration of the second-semester results, i.e. after second or third semester. d) Minimum CGPA for PhD candidacy is 7.5 and above; for the courses r€gistered after admission to MPDD program. m. Admission process:",
+          "score": 0.594337,
+          "filename": "3024_DualDegree_65b7a6680b83.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2023/09/3024_DualDegree.pdf",
+          "page_start": 2,
+          "page_end": 2,
+          "title": "Office Order for M.Tech./M.Plan. + Ph.D. Dual Degree (MPDD) Program",
+          "category": "academic_programs"
+        },
+        {
+          "chunk_id": "0cce67ec99ada433631315a391520d5e44c625f5b90de2f7535ab4cf4048b469",
+          "text": "ch degree alone. c) Comprehensive Exam is to be conducted by the end of the 7h semester, as per current PhD regulations. d) The nomination of supervisor for the candidate registering for MPDD program will be done afresh, during the time of departmental interview. The supervisor may be different form the one appointed for the MTechAvIPlan program. VII. Award of degree and Exit options: a) After successful completion of the Viva Voce relating to his/her PhD works, the student concerned will be awarded the MPDD together. The MTecMMPlan degree will be retroactive from the date of the completion of his/trer fulfilment of minimum credit requirement for relevant MTech/MPlan program/Comprehensive Examination.",
+          "score": 0.593708,
+          "filename": "3024_DualDegree_65b7a6680b83.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2023/09/3024_DualDegree.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "title": "Office Order for M.Tech./M.Plan. + Ph.D. Dual Degree (MPDD) Program",
+          "category": "academic_programs"
+        }
+      ],
+      "latency_ms": 2090.6,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": false,
+      "abstention_correct": true
+    },
+    {
+      "id": "hostel_menu",
+      "question": "What is the hostel mess menu for students?",
+      "answerable": false,
+      "expected_source_terms": [],
+      "answer": "The provided contexts do not include specific details about the hostel mess menu for students. Instead, they focus on the financial aspects, such as the mess advance per semester and total fees. Therefore, I cannot provide information on the hostel mess menu.",
+      "sources": [
+        {
+          "chunk_id": "c1202d17414476a3ccd343bc576523f896784606d98de0ad1c1c36ba535deb02",
+          "text": "or Hostellers) 1. Mess Advance per semester & adjusted in the Mess Bill at actual 15000.00 15000.00 15000.00 15000.00 Total (B) 15000.00 15000.00 15000.00 15000.00 Total (A+B) 23500.00 23500.00 23500.00 23500.00 * Group insurance fees will be as per actual and will be applicable from the month of October The draft for Institute Fees should be in the name of The Registrar MNIT Jaipur payable at Jaipur. The draft for Hostel Fee should be in the name of the MNIT Mess Council payable at Jaipur.",
+          "score": 0.528173,
+          "filename": "PG_Fee_structure_2009-13_3d515b639b78.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2017/04/PG_Fee_structure_2009-13.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "INSTITUTE FEE",
+          "category": "Institute Fees"
+        },
+        {
+          "chunk_id": "9b6075b3a466a77d1418e53f862d166cd8c492f93c7d5562c94f62ed4633e4ff",
+          "text": "Mess Advance per semester & adjusted in the Mess Bill at actual 15000.00 15000.00 15000.00 15000.00 Total (B) 15000.00 15000.00 15000.00 15000.00 Total (A+B) 23500.00 23500.00 23500.00 23500.00 * Group insurance fees will be as per actual and will be applicable from the month of October The draft for Institute Fees should be in the name of the Registrar MNIT Jaipur payable at Jaipur. The draft for Hostel Fee should be in the name of the MNIT Mess Council payable at Jaipur.",
+          "score": 0.471179,
+          "filename": "PG_Fee_Structure_2013-14_a2062beb1761.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2017/04/PG_Fee_Structure_2013-14.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Fees Structure for M.Tech./M.Plan./M.Sc./MBA (Full-time) students",
+          "category": "fees_structure"
+        },
+        {
+          "chunk_id": "7887b4f7a3e0e770427b5746a589d737d4da5d5d57d080ac98eedc7f8ac12883",
+          "text": "e per semester & adjusted in the Mess Bill at actual 15000.00 15000.00 15000.00 15000.00 Total (B) 15000.00 15000.00 15000.00 15000.00 Total (A+B) 23500.00 23500.00 23500.00 23500.00 * Group insurance fees will be as per actual and will be applicable from the month of October The draft for Institute Fees should be in the name of the Registrar MNIT Jaipur payable at Jaipur. The draft for Hostel Fee should be in the name of the MNIT Mess Council payable at Jaipur.",
+          "score": 0.440463,
+          "filename": "PhD_Fee_Structure_2014-15_2dfe5b945a24.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2017/04/PhD_Fee_Structure_2014-15.pdf",
+          "page_start": 1,
+          "page_end": 1,
+          "title": "Proposed fees structure for Ph.D. students admitted in the session 2014-15",
+          "category": "academic_fees"
+        }
+      ],
+      "latency_ms": 1933.9,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "library_hours",
+      "question": "What are the institute library opening hours?",
+      "answerable": false,
+      "expected_source_terms": [],
+      "answer": "The context provided does not specify the library opening hours of the institute. Please check the official institute website or contact the library directly for this information.",
+      "sources": [
+        {
+          "chunk_id": "3a405b8175f4bfa657cb1c9a264793a9a0abffa62acf48a7384b548378ac8695",
+          "text": ", etc., duri ng the Academic Session are specified in the Academic Calendarof the Institute which is approved by the Senate. 4. CURRICULUM The academic programmes of the Institute follow the credit system. Details of the curriculum for the undergraduate programmes as approve d by the Senate on the recommendations of SUGB.The curricular structure of the UG programmes has been revised recently and will be",
+          "score": 0.385301,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 5,
+          "page_end": 5,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "b3347d0b087eab2b92e4dad527fa4674b9abd08671eabe9c48de8a69e52b2ca3",
+          "text": "List of Institute Core Courses: S. No. Semester New Course Code Course Title Elective Type Course Type (T/P/S/D) Credit L T P 1 I / II 22CYT101 Engineering Chemistry CORE Theory 3 2 1 0 2 I / II 22CYP102 Engineering Chemistry Lab CORE Practical 1 0 0 2 3 I / II 22MAT101 Mathematics I CORE Theory 4 3 1 0 4 I / II 22MAT102 Mathematics II CORE Theory 4 3 1 0 5 I / II 22PHT101 Classical Physics * CORE Theory 3 2 1 0 22PHT102 Modern Physics * 6 I / II 22PHP103 Classical Physics Lab * CORE Practical 1 0 0 2 22PHP104 Modern Physics Lab * 7 I / II 22EET101 Basic Electrical and Electronics Engineering CORE Theory 3 3 0 0 8 I / II 22EEP102 Electrical Engineering Lab CORE Practical 1 0 0 2 9 I / II 22ECP101 Electronics Engineering Lab CORE Practical 1 0 0 2 10 I / II 22CET101 Engineering Drawing and Sketching CORE Theory 2 1 1 1 11 I / II 22CET102 Environmental Science CORE Theory 2 2 0 0 12 I / II 22CST101 Programming with Python CORE Theory 2 2 0 0 13 I / II 22CSP102 Programming with Python Lab CORE Practical 1 0 0 2 14 I / II 22MET101 Introduction to Mechanical Systems CORE Theory 2 2 0 0 15 I / II 22MEP102 Product Realization through Manufacturing CORE Practical 1 0 0 2 16 I / II 22HST101 Basic Economics CORE Theory 2 2 0 0 17 I / II 22HST102 English Communication Skills (Basic) * CORE Theory 2 2 0 0 I / II 22HST103 English Communication Skills (Advanced) * 18 I / II 22HSP104 Communication Skills lab (Basic) * CORE Practical 1 0 0 2 I / II 22HSP105 Communication Skills lab (Advanced) * Notes: 1. In addition to the Institute core courses, the UG students will be required to study",
+          "score": 0.364231,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 25,
+          "page_end": 25,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        },
+        {
+          "chunk_id": "409d5485b3630af8907cb502971fcbe8e21c00d4ef4efeb0791a5b2ef2ce714b",
+          "text": "wly admitted students should be online after reporting in the institute. 4. Whenever unavoidable circumstance are there, the draft for Institute Fee would be accepted. The Draft should be in the name of the Registrar MNIT Jaipur payable at Jaipur.",
+          "score": 0.3637,
+          "filename": "Final_Fee_Structure_Ph.D_._2017-18_admitted__9958a6f76a6f.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2017/06/Final_Fee_Structure_Ph.D_._2017-18_admitted_.pdf",
+          "page_start": 3,
+          "page_end": 3,
+          "title": "Fee structure for Ph.D. students admitted in the session 2017-18",
+          "category": "fee structure"
+        }
+      ],
+      "latency_ms": 1845.3,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "sports_facilities",
+      "question": "Which sports facilities are available on campus?",
+      "answerable": false,
+      "expected_source_terms": [],
+      "answer": "The provided context does not specify any sports facilities available on campus. Therefore, I cannot provide that information.",
+      "sources": [
+        {
+          "chunk_id": "55e550452d6db080d48da1f8c227fa0e7b20830bd3340df3944454d455cf37a1",
+          "text": "ation Fee 4000.00 4000.00 4000.00 4000.00 6. Sports 1000.00 1000.00 1000.00 1000.00 7. Tech Fest & Creative Arts Societv 1800.00 1800.00 r800.00 1800.00 8. Students Welfare 1000.00 1000.00 1000.00 1000.00 9. Industrial Training, lnternship & Placement 2000.00 2000.00 2000.00 2000.00 10. Examination r000.00 1000.00 1000.00 1000.00 1t Laboratorv & Proiect Fees 2000.00 2000.00 2000.00 2000.00 12. Alumni Activity Fee I500.00 1500.00 1500.00 1500.00 Total (B) 184s0.00 18450.00 18450.00 18450.00 C. One Time Payment at Admission ll Institute Caution Money (refundable) (for All) 15000.00 15000.00 12. Identiw Card Charses r00.00 r00.00 13. Final Degree certificate fee (one time) (Not Refundable) 1500.00 rs00.00 Total (C) 16600.00 16600.00 D. Group Insurance 14. Insurance Fee (Annual) 787.06 787.06 Total (D) 787.06 787.06 Total (A+B+C+D) 36837.06 + us $ 8000/ us $ 4000 99337.06 19450.00 81950.00",
+          "score": 0.297762,
+          "filename": "FeeUG2025-26_0470f87ae448.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2025/05/FeeUG2025-26.pdf",
+          "page_start": 3,
+          "page_end": 3,
+          "title": "Fee Structure for B. Tech. students admitted in the session 2025-26",
+          "category": "fee_structure"
+        },
+        {
+          "chunk_id": "955a4b92ed08d2a32ba4324e634a762ba30fc6912cfc5169992e0fbe7b0c441f",
+          "text": "0 13. Alumni Activity Fee 1500.00 1500.00 Total (B) 21450.00 21450.00 C. One Time Pavment at Admission 14. lnstitute Caution Money (refundable) (for All) 15000.00 15. Identitv Card Charees 100.00 16. Final Degree certificate fee (one time) CNotRefundable) 1500.00 Total (C) 16600.00 D. Grouo nsurance 17. Insurance Fee (Annual) 787.06 Total (D) 787.06 Total (A+B+C+D) 102337.06 84950.00",
+          "score": 0.287291,
+          "filename": "FeeUG2025-26_0470f87ae448.pdf",
+          "source_url": "https://www.mnit.ac.in/cms/uploads/2025/05/FeeUG2025-26.pdf",
+          "page_start": 8,
+          "page_end": 8,
+          "title": "Fee Structure for B. Tech. students admitted in the session 2025-26",
+          "category": "fee_structure"
+        },
+        {
+          "chunk_id": "90c46bbb86d182e3e8703827bffb73e2a77d188f4a683ea337702a228e23dc0d",
+          "text": "2 (B.Tech.) and Bachelor’s degree in Architecture, (B.Arch.).Degrees are being offered in the following fields: (a) Bachelor of Technology (B.Tech.) - 4 years programmes (Duration: 8 Semesters) • Chemical Engineering • Civil Engineering • Computer Science and Engineering • Electrical Engineering • Electronics & Communication Engineering • Mechanical Engineering • Metallurgical & Materials Engineering (b) Bachelor of Architecture (B.Arch.) - 5 years programme (Duration: 10 Semesters) The number of seats in each branch of B.Tech./B.Arch. programmes are to be decided by the Senate as per the guidelines issued by theMinistry of Education from time to time. 2. ACADEMIC SESSION The Academic Session normally begins in July and ends in May as per the academic calendar approved by the S enate. It is divided into two parts , namely, ‘Odd semester’ and ‘Even semester’. The actual date of th e start of the semester is as per the approved academic calendar of the Institute. Note: Academic Session of the First Semester students is decided on the basis of the counselling schedule of JoSAA/CSAB. 3. ACADEMIC CALENDAR The exact dates of all the important events, such as orientation, registration, late registration, depositing of fee/late fee,commencement of classes, submission of documents, examinations, submissions of grades, vacation, mid -semester break, etc., duri ng the Academic Session are specified in the Academic Calendarof the Institute which is approved by the Senate. 4. CURRICULUM The academic programmes of the Institute follow the credit system. Details of the curriculum for the",
+          "score": 0.280325,
+          "filename": "UGCoursesStudy2022-2023_5ef47d405bb9.pdf",
+          "source_url": "https://www.mnit.ac.in/academics/downloads/UGCoursesStudy2022-2023.pdf",
+          "page_start": 5,
+          "page_end": 5,
+          "title": "Important Information for the Newly Admitted Students to the UNDERGRADUATE PROGRAMMES (B.Tech./B.Arch.)",
+          "category": "admissions"
+        }
+      ],
+      "latency_ms": 1653.9,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "abstained": true,
+      "abstention_correct": true
+    }
+  ]
+}

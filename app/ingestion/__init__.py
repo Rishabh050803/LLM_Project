@@ -1,0 +1,2 @@
+"""Academic PDF ingestion pipeline."""
+
